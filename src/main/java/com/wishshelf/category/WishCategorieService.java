@@ -19,6 +19,7 @@ import org.springframework.web.servlet.i18n.SessionLocaleResolver;
 public class WishCategorieService {
 
 	public static void main(String[] args) {
+		System.out.println("Test logging");
 		SpringApplication.run(WishCategorieService.class, args);
 
 	}
